@@ -1,0 +1,28 @@
+<div class="mist-free-actions-body">
+	<div class="mist-free-actions-grant">
+		<i class="fa-solid fa-hourglass-start" inert></i>
+		<span>{{localize "MIST_FREE.Timeskip"}}</span>
+		<input type="number" name="amount" value="{{amount}}" step="1">
+		<button type="button" data-action="grant"><i class="fa-solid fa-plus" inert></i> {{localize "MIST_FREE.Grant"}}</button>
+	</div>
+	<p class="hint">{{localize "MIST_FREE.Hint"}}</p>
+	{{#if characters.length}}
+		<table>
+			<tbody>
+				{{#each characters as |character|}}
+					<tr data-actor-id="{{character.id}}">
+						<td><input type="checkbox" data-tick="{{character.id}}" {{#if character.ticked}}checked{{/if}} data-tooltip="{{localize "MIST_FREE.TickHint"}}"></td>
+						<th><img src="{{character.img}}" alt=""> {{character.name}}</th>
+						<td class="count">
+							<a data-action="minus" data-tooltip="−1"><i class="fa-solid fa-minus" inert></i></a>
+							<input type="number" min="0" step="1" value="{{character.count}}" data-count="{{character.id}}">
+							<a data-action="plus" data-tooltip="+1"><i class="fa-solid fa-plus" inert></i></a>
+						</td>
+					</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	{{else}}
+		<p class="hint">{{localize "MIST_FREE.NoCharacters"}}</p>
+	{{/if}}
+</div>

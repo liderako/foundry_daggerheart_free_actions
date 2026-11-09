@@ -1,0 +1,96 @@
+.mist-free-actions .window-content {
+	padding: 0.5rem;
+}
+
+.mist-free-actions .hint {
+	font-size: var(--font-size-12);
+	opacity: 0.75;
+}
+
+.mist-free-actions-grant {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.mist-free-actions-grant span {
+	flex: 1;
+	font-weight: bold;
+}
+
+.mist-free-actions-grant input[type="number"] {
+	width: 4rem;
+	flex: none;
+	text-align: center;
+}
+
+.mist-free-actions-grant button {
+	flex: none;
+	width: auto;
+}
+
+.mist-free-actions table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.mist-free-actions td,
+.mist-free-actions th {
+	padding: 0.25rem 0.4rem;
+}
+
+.mist-free-actions tbody th {
+	text-align: left;
+	font-weight: normal;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.mist-free-actions tbody th img {
+	width: 28px;
+	height: 28px;
+	border: none;
+	border-radius: 4px;
+	object-fit: cover;
+	vertical-align: middle;
+	margin-right: 0.3rem;
+}
+
+.mist-free-actions tbody tr:nth-child(odd) {
+	background: rgba(127, 127, 127, 0.08);
+}
+
+.mist-free-actions td.count {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	white-space: nowrap;
+}
+
+.mist-free-actions td.count input {
+	width: 3.5rem;
+	text-align: center;
+}
+
+/* The counter on the character sheet, next to the rest buttons. */
+button.mist-free-actions-counter {
+	width: auto;
+	padding: 0 0.4rem;
+	gap: 0.25rem;
+	white-space: nowrap;
+}
+
+.mist-free-actions-edit input {
+	width: 5rem;
+	text-align: center;
+}
+
+/* "Free actions: 19" in the other modules' windows. */
+.mist-free-actions-line {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.25rem;
+	font-size: var(--font-size-12);
+	opacity: 0.85;
+	white-space: nowrap;
+}

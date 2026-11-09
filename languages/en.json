@@ -1,0 +1,19 @@
+{
+	"MIST_FREE": {
+		"Title": "Free actions",
+		"Count": "Free actions",
+		"Timeskip": "Timeskip: add to the ticked",
+		"Grant": "Add",
+		"Hint": "Every downtime roll (a learn project, spell study, recipe research, brewing) spends one free action. At 0 the roll still goes ahead, without spending.",
+		"TickHint": "Gets the timeskip actions",
+		"NoCharacters": "No player characters yet.",
+		"EditTitle": "Free actions: {actor}",
+		"Save": "Save",
+		"CounterGM": "Free actions (click to change)",
+		"CounterPlayer": "Free actions left for downtime: each project, study or brewing roll spends one",
+		"Spent": "{actor} spends a free action ({left} left).",
+		"SpentFor": "{actor} spends a free action on {reason} ({left} left).",
+		"Granted": "Timeskip: {amount} free actions ({names}).",
+		"Line": "Free actions: {count}"
+	}
+}

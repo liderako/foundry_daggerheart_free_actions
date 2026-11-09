@@ -1,0 +1,49 @@
+{
+	"id": "mist-age-free-actions",
+	"title": "The Mist Age - Free Actions",
+	"description": "Free actions for Daggerheart downtime: the GM gives characters a number of free actions (after a timeskip, say +20), and every roll in learn projects, spell study, recipe research and potion brewing spends one. At zero nothing is blocked: the roll just goes ahead without spending.",
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "14"
+	},
+	"authors": [
+		{
+			"name": "asvirido"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "daggerheart",
+				"type": "system"
+			}
+		]
+	},
+	"esmodules": [
+		"scripts/main.js"
+	],
+	"styles": [
+		"styles/free-actions.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		},
+		{
+			"lang": "ru",
+			"name": "Русский",
+			"path": "languages/ru.json"
+		},
+		{
+			"lang": "uk",
+			"name": "Українська",
+			"path": "languages/uk.json"
+		}
+	],
+	"url": "https://github.com/liderako/foundry_daggerheart_free_actions",
+	"manifest": "https://github.com/liderako/foundry_daggerheart_free_actions/releases/latest/download/module.json",
+	"download": ""
+}
